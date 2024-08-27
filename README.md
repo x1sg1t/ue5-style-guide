@@ -341,13 +341,13 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Level (Lighting)        |            | _Lighting  |                                  |
 | Level (Geometry)        |            | _Geo       |                                  |
 | Level (Gameplay)        |            | _Gameplay  |                                  |
-| Blueprint               | B_        |            |                                  |
+| Blueprint               | B_         |            | Instead of using BP_             |
 | Material                | M_         |            |                                  |
 | Static Mesh             | S_         |            | Many use SM_. We use S_.         |
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 | Particle System         | PS_        |            |                                  |
-| Widget Blueprint        | WB_       |            |                                  |
+| Widget Blueprint        | W_         |            | Instead of using WBP_            |
 
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
@@ -367,6 +367,7 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 | Morph Target            | MT_        |            |                                  |
 | Paper Flipbook          | PFB_       |            |                                  |
 | Rig                     | Rig_       |            |                                  |
+| Control Rig             | CR_        |            |                                  |
 | Skeletal Mesh           | SK_        |            |                                  |
 | Skeleton                | SKEL_      |            |                                  |
 
@@ -391,15 +392,15 @@ When naming an asset, use these tables to determine the prefix and suffix to use
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Blueprint               | B_        |            |                                  |
-| Blueprint Component     | B_        | Component  | I.e. B_InventoryComponent       |
+| Blueprint               | B_         |            | Instead of using BP_             |
+| Blueprint Component     | B_         | Component  | I.e. B_InventoryComponent        |
 | Blueprint Function Library | BPFL_   |            |                                  |
 | Blueprint Interface     | BPI_       |            |                                  |
 | Blueprint Macro Library | BPML_      |            | Do not use macro libraries if possible. |
 | Enumeration             | E          |            | No underscore.                   |
 | Structure               | F or S     |            | No underscore.                   |
-| Tutorial Blueprint      | TB_       |            |                                  |
-| Widget Blueprint        | WB_       |            |                                  |
+| Tutorial Blueprint      | TB_        |            |                                  |
+| Widget Blueprint        | W_         |            |                                  |
 
 <a name="anc-materials"></a>
 <a name="1.2.5"></a>
